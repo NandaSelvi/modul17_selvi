@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 // const Auth = require('./auth')
 const cookieParser = require('cookie-parser');
 require("dotenv").config();
-const bcrypt = require('bcrypt');
+const bcryptjs = require('bcryptjs');
 SECRET = process.env.SECRET
 
 
